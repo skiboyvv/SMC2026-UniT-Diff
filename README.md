@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [NeurIPS-2023] Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation
 
 This repo is the official implementation of [Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation](https://arxiv.org/abs/2310.11320) which is accepted at NeurIPS-2023.
@@ -233,3 +234,7 @@ Haonan Wang (hwanggr@connect.ust.hk)
 
 This repository is released under MIT License.
 
+=======
+# SMC2026-UniT-Diff
+[IEEE SMC 2026] SNR-Adaptive Unified Diffusion for Multi-Task Medical Image Segmentation
+>>>>>>> 436799631e4575af64fc8af1db09d623c220fabe
