@@ -18,7 +18,7 @@ To address these challenges, we propose **UniT-Diff**, an SNR-Adaptive Unified D
 - **SNR-Adaptive Time Conditioning (SATC):** Adapting the diffusion timestep embeddings based on the Signal-to-Noise Ratio to stabilize multi-dataloader joint training.
 
 <p align="center">    
-<img src="./images/Architecture_Placeholder.png" width="85%" alt="UniT-Diff Architecture"/>
+<img src="./images/main.png" width="85%" alt="UniT-Diff Architecture"/>
 </p>
 
 ---
@@ -140,7 +140,5 @@ If you find this code or our concepts helpful for your research, please cite our
 
 This codebase is built upon the foundational work of [GenericSSL](https://www.google.com/search?q=https://github.com/HaonanWang/GenericSSL) (NeurIPS 2023). We sincerely thank the authors for open-sourcing their diffusion framework.
 
-```
 
-```
->>>>>>> 436799631e4575af64fc8af1db09d623c220fabe
+>>>>>>> 
