@@ -2,16 +2,18 @@
 
 This repository is the official PyTorch implementation of **SNR-Adaptive Unified Diffusion for Multi-Task Medical Image Segmentation**, accepted as a Regular Paper at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC).
 
-**Authors:** Jiahao Liu, Hang Wei, Shuai Wu*
+**Authors:** Jiahao Liu, Hang Wei*, Shuai Wu*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/)
 
 ## 🚀 Overview
 
-Developing a unified foundation model for multi-task medical image segmentation faces severe challenges such as **semantic collision** (e.g., the left ventricle is background in one dataset but foreground in another) and **domain shift** across different modalities and centers. 
+In real-world clinical scenarios, there is a critical lack of a single, generic framework capable of simultaneously training on and processing diverse medical datasets (e.g., varying tasks, modalities, and multi-center data). Current paradigms rely on deploying isolated, task-specific models, which is highly inefficient to scale. 
 
-To address these challenges, we propose **UniT-Diff**, an SNR-Adaptive Unified Diffusion Framework featuring:
+However, developing a unified foundation model for multi-task medical image segmentation faces severe challenges such as **semantic collision** (e.g., the left ventricle is background in one dataset but foreground in another) and **domain shift** across different modalities and centers. 
+
+To address these challenges and bridge the gap toward a truly unified model, we propose **UniT-Diff**, an SNR-Adaptive Unified Diffusion Framework featuring:
 - **11-Channel Decoupled Output Space:** Physically isolating the output space to eliminate cross-task softmax competition.
 - **Task-Type-Aware Conditioned Dropout (TTACD):** A novel task-guided conditioning mechanism in the diffusion latent space to disentangle task-specific features without negative transfer.
 - **SNR-Adaptive Time Conditioning (SATC):** Adapting the diffusion timestep embeddings based on the Signal-to-Noise Ratio to stabilize multi-dataloader joint training.
@@ -21,7 +23,6 @@ To address these challenges, we propose **UniT-Diff**, an SNR-Adaptive Unified D
 </p>
 
 ---
-
 ## 🛠️ 1. Environment Setup
 
 Create a new conda environment and install the required dependencies:
