@@ -52,8 +52,9 @@ export PYTHONPATH=$(pwd)/code:$PYTHONPATH
 
 Our unified framework jointly trains on three highly heterogeneous datasets. Please download and put them under the `Datasets` folder.
 
-* **LASeg Dataset (Single-modality MRI):** Download the preprocessed data from [UA-MT](https://github.com/yulequan/UA-MT/tree/master/data).
-* **MMWHS Dataset (Cross-modality CT/MRI):** Download according to [SIFA](https://github.com/cchen-cc/SIFA#readme). Or download our preprocessed data via [this link](https://www.google.com/search?q=%23). - **M&Ms Dataset (Multi-center Domain Generalization):** Download from [MNMs Challenge](https://www.ub.edu/mnms/).
+- **LASeg Dataset (Single-modality MRI):** Download the preprocessed data from [UA-MT](https://github.com/yulequan/UA-MT/tree/master/data).
+- **MMWHS Dataset (Cross-modality CT/MRI):** Download according to [SIFA](https://github.com/cchen-cc/SIFA#readme). Or download our preprocessed data via [this link](#). 
+- **M&Ms Dataset (Multi-center Domain Generalization):** Download from [MNMs Challenge](https://www.ub.edu/mnms/).
 
 The final file structure should look like this:
 
