@@ -32,7 +32,7 @@ conda create -n unitdiff python=3.9
 conda activate unitdiff
 
 # Clone the repository
-git clone [https://github.com/your-username/SMC2026-UniT-Diff.git](https://github.com/your-username/SMC2026-UniT-Diff.git)
+git clone [https://github.com/skiboyvv/SMC2026-UniT-Diff.git]
 cd SMC2026-UniT-Diff
 
 # Install dependencies
