@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # [IEEE SMC 2026] SNR-Adaptive Unified Diffusion for Multi-Task Medical Image Segmentation (UniT-Diff)
 
 This repository is the official PyTorch implementation of **SNR-Adaptive Unified Diffusion for Multi-Task Medical Image Segmentation**, accepted as a Regular Paper at the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC).
